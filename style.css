@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+} 
+
+body {
+    height: 100vh;
+    background-image: url("images/hero-bg.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    margin-top: 4em;
+}
+.header-logo {
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+.header-logo .img-logo img {
+    margin: 0 45%;
+}
+.main {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+.main h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    color: #514949;
+    margin-bottom: 36px;
+}
+.main p {
+    text-align: center;
+    color: #514949;
+    font-size: 16px;
+    opacity: 0.9;
+    margin: 0 20em;  
+    line-height: 27px; 
+}
+.main p span {
+    color: #E7332B;
+}
+.main p span:hover {
+    color: #f07f77;
+    cursor: pointer;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em; 
+    gap: 25px;
+}
+.btn button {
+    padding: 15px 25px;
+    font-size: 16px;
+}
+.btn-one {
+    background-color: #E7332B;
+    color: #fff;
+    border: 1px solid #E7332B;
+}
+.btn-one:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #E7332B;
+}
+.btn-two {
+    background-color: #fff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+}
+.btn-two:hover {
+    cursor: pointer;
+    background-color: #E7332B;
+    color: #fff;
+}
+.main-two {
+    background-color: #fff;
+    margin: 30% 0;
+    overflow: hidden;
+}
+
+.main-two-heading {
+    margin: 0 29rem;
+}
+.heading {
+    text-align: center;
+    color: #E7332B;
+    font-size: 16px;
+    font-weight: 400;
+}
+.motto {
+    text-align: center;
+    color: #514949;
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 45px;
+}
+.flex-container {
+    margin: 8em;
+    /* background-color: rgb(161, 63, 63); */
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+}
+/* .flex-container-img {
+    display: flex;
+
+}
+.flex-container-img img {
+    width: 400px;
+    background-repeat: no-repeat;
+    
+} */
+.bg-pattern-one {
+    width: 450px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 130%;
+    left: -15%;
+    z-index: -1;
+}
+.bg-pattern-two {
+    width: 450px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -15%;
+    top: 130%;
+    z-index: -1; 
+}
+
+.flex-container p {
+    margin: 2rem 0;
+    color: #514949;
+    line-height: 25px;
+}
+.flex-container a {
+    /* background-color: rgb(150, 56, 56); */
+    color: #E7332B;
+    text-decoration: none;
+}
+footer {
+    margin: 0 6em;
+}
+.team-logo {
+    margin-top: 0.2em;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+}
+.footer-info h2 {
+    font-size: 16px;
+    color: #514949;
+    font-weight: 800;
+}
+.footer-info p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.team-stores {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 16%;
+}
+.team-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 12%;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.socialmedia-icon {
+    display: flex;
+    gap: 8px;
+}
+.socialmedia-icon img {
+    width: 18px;
+}
+.footer-info a {
+    text-decoration: none;
+    color: #E7332B;
+}
+.footer-info a:hover {
+     color: #f07f77;
+}
+.footer-end {
+    margin: 5em 20px;
+}
+.line-through {
+    border-bottom: #6d6565 2px solid;
+    opacity: 0.3;
+    width: 100%;
+}
+.footer-end h3 {
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+    color: #514949;
+}
+.attribution {
+    text-align: center;
+    margin-bottom: 35px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        height: 100vh;
+        width: auto;
+    }
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        margin: 0;
+        width: 100%;
+    }
+    .img-logo img {
+        display: block;
+        padding-top: 50px;
+        margin: 3em;
+        margin-bottom: 20px;
+    }
+    .main h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .main p {
+        width: 90%;
+        text-align: center;
+        margin: 10px;
+    }
+}
