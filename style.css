@@ -208,7 +208,10 @@ footer {
 .footer-end {
     margin: 5em 20px;
 }
-.line-through {
+ .footer-end .line-through {
+    margin: 5em 0px;
+ }
+ .line-through {
     border-bottom: #6d6565 2px solid;
     opacity: 0.3;
     width: 100%;
@@ -251,5 +254,83 @@ footer {
         width: 90%;
         text-align: center;
         margin: 10px;
+    }
+    .main-two-heading {
+        margin: 0;
+    }
+    .heading {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        width: 100%;
+    }
+    .motto {
+        width: 90%;
+        text-align: center;
+        margin: 10px;
+    }
+    .flex-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 3rem;
+    }
+    .bg-pattern-one {
+        display: none;
+    }
+    .bg-pattern-two {
+        display: none;
+    }
+    .footer-info {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+    .team-stores {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 0;
+    }
+    .team-logo img {
+        margin: 0 30%;
+        width: 50%;
+    }
+    .team-stores h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .team-stores p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .team-contact {
+        margin: 0 2rem;
+    }
+    .team-contact h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .team-contact p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .socialmedia h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .socialmedia-icon {
+        margin: 0 7rem;
+    }
+    .socialmedia-icon img {
+        text-align: center;
+    }
+
+   .footer-end .line-through {
+        margin: 0;
+        width: 100%;
+    }
+    .line-through {
+        width: 100%;
     }
 }
